@@ -46,7 +46,6 @@ const innerGlowwormColorList = [
 ];
 
 const initMap = () => {
-  console.log('container:', container)
   mapboxgl.accessToken = '';
   map.value = new mapboxgl.Map({
     container: container.value,
