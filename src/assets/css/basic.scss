@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: "PingFang SC", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 400;
+  letter-spacing: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: DINAlternate-bold;
+  src: url('/static/fonts/DIN-Alternate-Bold.ttf');
+}
+
+@font-face {
+  font-family: YouSheBiaoTiHei;
+  src: url('/static/fonts/YouSheBiaoTiHei.ttf');
+}
+
+@font-face {
+  font-family: PangMenZhengDao;
+  src: url('/static/fonts/PangMenZhengDaoBiao.ttf');
+}
+
+@font-face {
+  font-family: Orbitron;
+  src: url('/static/fonts/Orbitron-Regular.ttf');
+}
+
+@font-face {
+  font-family: TRENDS;
+  src: url('/static/fonts/TRENDS.ttf');
+}
+
+@font-face {
+  font-family: FZPSCHJW--GB1-0;
+  src: url('/static/fonts/fz_pinshangcuhei_jt.ttf');
+}
+
+@font-face {
+  font-family: shouhu;
+  src: url('/static/fonts/360shouhuType-Regular.otf')
+}
+
+svg {
+  display: inline-block;
+}
